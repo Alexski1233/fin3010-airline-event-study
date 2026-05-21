@@ -1,0 +1,15 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# Local raw data. Keep these locally for reproducibility, but do not publish
+# provider/course data unless sharing rights are clear.
+data/**/*.csv
+data/**/*.xlsx
+
+# Local submitted paper. Add manually only if public sharing is approved.
+report/*.pdf
