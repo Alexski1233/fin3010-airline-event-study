@@ -1,8 +1,8 @@
 # Data
 
-Raw data files are kept in this folder locally so the analysis scripts can run.
+Data files used by the analysis scripts are kept in this folder.
 
-They are ignored by Git by default because several files appear to come from commercial or course-provided sources. If you publish the repository publicly, check the data rights before adding them.
+The folder is included so the project can be rerun without rebuilding the data inputs from scratch.
 
 Expected local folders:
 

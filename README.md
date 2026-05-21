@@ -15,8 +15,8 @@ The submitted paper received a B. I have kept the repo simple and close to the o
 │   ├── nas_ar.py             # Norwegian Air event-window abnormal returns
 │   └── euro_car.py           # European airline CAAR analysis
 ├── notebooks/                # cleaned exploratory notebooks
-├── data/                     # local raw data, not committed by default
-└── report/                   # local report PDF, not committed by default
+├── data/                     # data used for the analysis
+└── report/                   # submitted exam paper
 ```
 
 ## How to Run
@@ -47,9 +47,8 @@ Using the local data currently in this project:
 
 ## Notes
 
-- The raw data files are kept locally in `data/`, but are ignored by Git. Some of the files appear to be exported from commercial data sources, so they should not be published publicly without checking the license.
-- The report PDF is also kept local by default. Since the paper has two authors, make sure both authors are comfortable with public sharing before adding it to a public GitHub repo.
-- The notebooks are included as cleaned working material. The scripts in `src/` are the main version to run.
+- The data and report are included because this repository is meant to preserve the submitted course project.
+- Some scripts are cleaner than the notebooks. The notebooks are included as supporting working material, while the scripts in `src/` are the main version to run.
 
 ## Main Question
 
